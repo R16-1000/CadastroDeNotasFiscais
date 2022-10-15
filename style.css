@@ -1,0 +1,117 @@
+body{
+    background-color: aqua;
+}
+
+.tudo{
+    background-color: blue;
+    padding: 1px;
+    border-radius: 10px;
+    text-align: center;
+    color: azure; 
+    font-size: 20px;
+}
+
+h4{
+    margin-top: 4px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 12px;
+    
+    /*margin-bottom: 0; /*margem baixa*/
+}
+h3{
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    /*margin-bottom: 0; /*margem baixa*/
+}
+.d{
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+.l1{
+    
+    margin-left: 5px;
+    /*display: flex; /*alinha lado a lado*/
+    display:inline-flex; /*alinha lado a lado*/
+    color: azure;
+}
+.l1 h4{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.l2 h4{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+input{   
+    padding: 1px; /*espaço interno*/
+    height: 15px;
+    width: 70px;
+    border-radius: 5px;
+   
+}
+.l1 [name=data]{
+    width: 100px;
+    
+}
+.l1 [name=nome]{
+    width: 150px;
+}
+.l1 [name=rg]{
+    width: 100px;
+}
+.l1 [name=empresa]{
+    width: 150px;
+}
+.l1 [name=placa]{
+    width: 70px;
+    text-transform: uppercase;
+}
+.l1 [name=produto]{
+    width: 120px;
+}
+.l1 [name=quantidade]{
+    width: 50px;
+}
+
+.l2{
+    display:inline-flex;
+    margin: 5px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: azure;
+}
+
+.l2 [type=datetime]{
+    height: 15px;
+    width: 35px;
+
+}
+.l2 [type=submit]{
+    margin-left: 20px;
+    height: 22px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add div{
+    display: flex;
+    color: rgb(90, 6, 6);
+    font-size: 5px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+
