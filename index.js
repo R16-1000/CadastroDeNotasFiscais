@@ -40,7 +40,7 @@ document.querySelector('input[type=submit]')
         <div class="cont" >
        
         <h4>Data: </h4>
-        <h4 class="d">`+val.dat+`</h4>
+        <h4 class="d">`+dat+`</h4>
         
         <h4>Nome: </h4> 
         <h3>`+val.nome+`</h3>
