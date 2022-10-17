@@ -2,7 +2,8 @@ let cadastro = []
 
 document.querySelector('input[type=submit]')
 .addEventListener('click',()=>{
-    let dat = document.querySelector('input[name=data]')//.value aqui é para teste 
+    let data = new Date()
+    const dat = `${data.getDate()}-${(data.getMonth()+1)}-${data.getFullYear()}` 
     let nome = document.querySelector('input[name=nome]')
     let rg = document.querySelector('input[name=rg]')
     let emp = document.querySelector('input[name=empresa]')
@@ -17,7 +18,7 @@ document.querySelector('input[type=submit]')
     
     cadastro.push({
         nome: nome.value,
-        dat: dat.value,
+        dat: dat,
         rg: rg.value,
         emp: emp.value,
         plac: plac.value,
